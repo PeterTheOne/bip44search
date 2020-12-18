@@ -2,6 +2,7 @@
   "name": "bip44search-ui",
   "version": "0.1.0",
   "description": "",
+  "homepage": "https://petertheone.github.io/bip44search",
   "main": "build/index.js",
   "scripts": {
     "start": "react-scripts start",
