@@ -6,7 +6,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
   ],
   globals: {
     Atomics: 'readonly',
@@ -31,12 +31,12 @@ module.exports = {
       'error',
       'ignorePackages',
       {
-        'ts': 'never',
-        'tsx': 'never'
-      }
+        ts: 'never',
+        tsx: 'never',
+      },
     ],
     'react/jsx-filename-extension': 0,
-    'max-len': ["error", { "code": 120 }],
+    'max-len': ['error', { code: 120 }],
     'react/no-unused-state': 0,
   },
   settings: {
@@ -44,13 +44,13 @@ module.exports = {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
     'import/resolver': {
-      'node': {
-        'extensions': [
+      node: {
+        extensions: [
           '.ts',
           '.tsx',
           '.d.ts',
-        ]
+        ],
       },
     },
-  }
+  },
 };
