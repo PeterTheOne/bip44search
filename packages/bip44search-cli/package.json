@@ -1,0 +1,29 @@
+{
+  "name": "bip44search-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "start": "ts-node-dev ./src/run.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "@ethersproject/hdnode": "^5.0.5",
+    "cross-fetch": "^3.0.6",
+    "web3": "^1.3.0"
+  },
+  "author": "Peter Grassberger <petertheone@gmail.com> (https://petergrassberger.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5"
+  }
+}

@@ -1,4 +1,10 @@
-const networks = [
+export interface Network {
+  name: string;
+  rpc: string;
+  blockscout?: string;
+}
+
+const networks: Network[] = [
   /*
   {
     name: 'ARTIS tau1',
